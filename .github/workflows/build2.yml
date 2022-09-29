@@ -36,8 +36,5 @@ jobs:
 #         run: |
 #           echo Add other actions to build,
 #           echo test, and deploy your project.
-        
-        # Run tests
-      - name: Run maven tests
-        run: 
-         mvn clean test
+            mvn clean test
+      
